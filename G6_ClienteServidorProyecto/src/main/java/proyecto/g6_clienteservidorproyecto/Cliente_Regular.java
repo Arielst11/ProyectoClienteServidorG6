@@ -10,7 +10,14 @@ package proyecto.g6_clienteservidorproyecto;
  * @author asanc
  */
 public class Cliente_Regular extends Usuario_Cliente{
+
+    @Override
+    public void calculoDeDesctuento() {
+        super.calculoDeDesctuento(); //To change body of generated methods, choose Tools | Templates.
+        
+        
+    }
     
-    
-    
+  
+ 
 }
