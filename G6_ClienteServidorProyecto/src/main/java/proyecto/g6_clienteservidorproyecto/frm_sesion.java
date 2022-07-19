@@ -64,7 +64,6 @@ public class frm_sesion extends javax.swing.JFrame {
         getContentPane().add(btn_ingresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 270, 130, -1));
 
         lbl_imgCeleste.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Contains/Subtract.png"))); // NOI18N
-        lbl_imgCeleste.setText("jLabel5");
         getContentPane().add(lbl_imgCeleste, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, -1, -1));
 
         lbl_imgPersonas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Contains/image 11.png"))); // NOI18N
@@ -108,8 +107,9 @@ public class frm_sesion extends javax.swing.JFrame {
             frm_principal obj_formulario_principal = new frm_principal();
             
             obj_formulario_principal.setLocationRelativeTo(null);
-            
+           // obj_formulario_principal.setSize(405,530);
             obj_formulario_principal.setVisible(true);
+            
 
         }else{
             JOptionPane.showMessageDialog(null, "Los credenciale no son válidos, intente nuevamente");
