@@ -5,21 +5,27 @@
  */
 package proyecto.g6_clienteservidorproyecto;
 
-/**
- *
- * @author asanc
- */
+
 public class NewMain {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-   
-    // testing
     
+    public static void main(String[] args) {
+       
+    iniciar_sistema();
 
+    
+    }
+    
+     public static void iniciar_sistema (){
+    
+        frm_sesion obj_formulario_inicio= new frm_sesion();
+        //centra el formulario en pantalla
+        obj_formulario_inicio.setLocationRelativeTo(null);
+        //mostrar el formulario en pantalla
+        obj_formulario_inicio.setVisible(true);
+        //para el tamaño del formulario
+        obj_formulario_inicio.setSize(405,530);
+    
     
     }
     
